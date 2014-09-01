@@ -1,0 +1,26 @@
+--- Ambre      ------------------------------
+1. Allow the Excel RTD to set the particular IP address to listen instead
+of using local host.
+
+2. Allow user to completely delete a FillHub from Ambre by right-clicking and choosing destroy, say.
+	Should delete the current drop file for this hub, but also the config file entry.
+
+3. FIX!! The new fill listener creation button!  So, its clicked by system at construction time (to set things properly)!
+	
+
+--- Breconcile ------------------------------
+
+Additional features
+1. When a position appears in either Ambre-statement or clearing-statements, and there is no offsetting position in another statement, there are two cases to consider:  Its a product not tracking in one of our statements, or our position is off.  
+	If there is NO knowledge of the offsetting product call this "unknown position", if there is a partial offset call this "unrconciled".
+	This way, the fact that RCG does not clear BTec positions, these lines in Ambre will be "unknown" not "unreconciled"
+	
+2. New Task: Fill matching
+	When there is a mismatch in the reconcilliation, perform and extra task.
+	New task is to load the RCG fill statements and load the entire collection of fills from Ambre.
+	Compare the two and report exactly who is missing which fills, 
+	Example output message:
+	* Extra RCG fill: +10 @ 99.095  LocalTime: Oct-20-2013 7:01:32 PM  ExchangeTime: Oct-21-2013 1:01:31 AM
+
+3. ABN
+	n5$YtSf3	

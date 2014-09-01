@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BACB0C23-158A-48E7-BC0D-46A309C35341}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UV.Lib</RootNamespace>
+    <AssemblyName>UVLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\UVLib.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Foreign\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Foreign\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\AppInfo.cs" />
+    <Compile Include="Application\AppServiceEventArg.cs" />
+    <Compile Include="Application\AppServices.cs" />
+    <Compile Include="Application\ExceptionCatcher.cs" />
+    <Compile Include="Application\IService.cs" />
+    <Compile Include="Application\Managers\ForeignConnection.cs" />
+    <Compile Include="Application\Managers\ForeignEngineHub.cs" />
+    <Compile Include="Application\Managers\ForeignServer.cs" />
+    <Compile Include="Application\Managers\ForeignService.cs" />
+    <Compile Include="Application\Managers\Message.cs" />
+    <Compile Include="Application\Managers\MessageType.cs" />
+    <Compile Include="Application\Managers\RequestCode.cs" />
+    <Compile Include="Application\Managers\ServiceManager.cs" />
+    <Compile Include="Application\RunType.cs" />
+    <Compile Include="Application\ServiceStateEventArgs.cs" />
+    <Compile Include="Application\ServiceStates.cs" />
+    <Compile Include="Application\UserInfo.cs" />
+    <Compile Include="BookHubs\Book.cs" />
+    <Compile Include="BookHubs\BookHub.cs" />
+    <Compile Include="BookHubs\MarketBase.cs" />
+    <Compile Include="BookHubs\InstrumentChange.cs" />
+    <Compile Include="BookHubs\InstrumentChangedArgs.cs" />
+    <Compile Include="BookHubs\Market.cs" />
+    <Compile Include="BookHubs\MarketStatus.cs" />
+    <Compile Include="BookHubs\MarketStatusEventArgs.cs" />
+    <Compile Include="BookHubs\MarketUpdateEventArgs.cs" />
+    <Compile Include="DatabaseReaderWriters\DatabaseInfo.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\ExchangeInfoQuery.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\FillsQuery.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\InstrumentInfoQuery.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\EconomicDataQuery.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\EconomicDataItem.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\MarketDataQuery.cs" />
+    <Compile Include="DatabaseReaderWriters\DatabaseReaderWriter.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\MarketDataItem.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\ProductInfoQuery.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\QueryBase.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\QueryStatus.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\SignalQuery.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\StrategiesQuery.cs" />
+    <Compile Include="DatabaseReaderWriters\Queries\StrategyEnginesQuery.cs" />
+    <Compile Include="DatabaseReaderWriters\RequestEventArgs.cs" />
+    <Compile Include="DatabaseReaderWriters\TableInfo.cs" />
+    <Compile Include="Database\DatabaseInfo.cs" />
+    <Compile Include="Database\DatabaseWriterHub.cs" />
+    <Compile Include="Database\DatabaseWriterEventArgs.cs" />
+    <Compile Include="Database\ExchangeNameToID.cs" />
+    <Compile Include="Database\DBInstrument.cs" />
+    <Compile Include="Database\DBProduct.cs" />
+    <Compile Include="Database\TableInfo.cs" />
+    <Compile Include="Data\Bar.cs" />
+    <Compile Include="Data\BarEventArgs.cs" />
+    <Compile Include="Data\DataHub.cs" />
+    <Compile Include="Data\DataHubRequest.cs" />
+    <Compile Include="Data\ProductRequest.cs" />
+    <Compile Include="Data\QueryBuilderHub.cs" />
+    <Compile Include="Data\QueryBuilderHubRequest.cs" />
+    <Compile Include="Engines\Engine.cs" />
+    <Compile Include="Engines\EngineEventArgs.cs" />
+    <Compile Include="Engines\IEngine.cs" />
+    <Compile Include="Engines\IEngineContainer.cs" />
+    <Compile Include="Engines\IEngineHub.cs" />
+    <Compile Include="Engines\IPricingEngine.cs" />
+    <Compile Include="Engines\ParameterInfo.cs" />
+    <Compile Include="Excel\RTD\MessageType.cs" />
+    <Compile Include="Excel\RTD\TopicBase.cs" />
+    <Compile Include="Fills\Fill.cs" />
+    <Compile Include="Fills\FillBook.cs" />
+    <Compile Include="Fills\FillEventArgs.cs" />
+    <Compile Include="Fills\FillPage.cs" />
+    <Compile Include="Fills\SyntheticFill.cs" />
+    <Compile Include="FrontEnds\Graphs\ZGraphPoints.cs" />
+    <Compile Include="FrontEnds\Graphs\ZGraphText.cs" />
+    <Compile Include="FrontEnds\GuiTemplates\EngineContainerGui.cs" />
+    <Compile Include="FrontEnds\GuiTemplates\EngineGui.cs" />
+    <Compile Include="FrontEnds\Clusters\BoxNumeric.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Clusters\BoxRow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Clusters\Cluster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Clusters\Cluster.Designer.cs">
+      <DependentUpon>Cluster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\Clusters\ClusterConfiguration.cs" />
+    <Compile Include="FrontEnds\Clusters\ClusterDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Clusters\ClusterDisplay.Designer.cs">
+      <DependentUpon>ClusterDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\Clusters\ClusterEventArgs.cs" />
+    <Compile Include="FrontEnds\Clusters\Header.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Clusters\Header.Designer.cs">
+      <DependentUpon>Header.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\Graphs\CurveDefinition.cs" />
+    <Compile Include="FrontEnds\Graphs\GraphHolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Graphs\GraphHolder.Designer.cs">
+      <DependentUpon>GraphHolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\Graphs\ZGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Graphs\ZGraphControl.Designer.cs">
+      <DependentUpon>ZGraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\Graphs\ZGraphPoint.cs" />
+    <Compile Include="FrontEnds\Hubs\FrontEndServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Hubs\FrontEndServices.cs" />
+    <Compile Include="FrontEnds\Huds\HudPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Huds\HudPanel.Designer.cs">
+      <DependentUpon>HudPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\Huds\MultiPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Huds\MultiPanel.Designer.cs">
+      <DependentUpon>MultiPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\EngineControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\EngineControl.Designer.cs">
+      <DependentUpon>EngineControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\IEngineControl.cs" />
+    <Compile Include="FrontEnds\PopUps\IPopUp.cs" />
+    <Compile Include="FrontEnds\PopUps\ParamBool2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamBool2.Designer.cs">
+      <DependentUpon>ParamBool2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamControlBase.Designer.cs">
+      <DependentUpon>ParamControlBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamDouble2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamDouble2.Designer.cs">
+      <DependentUpon>ParamDouble2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamEnum.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamEnum.Designer.cs">
+      <DependentUpon>ParamEnum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamInteger2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamInteger2.Designer.cs">
+      <DependentUpon>ParamInteger2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamString.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamString.Designer.cs">
+      <DependentUpon>ParamString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamUnknown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\ParamUnknown.Designer.cs">
+      <DependentUpon>ParamUnknown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\Popup1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\Popup1.Designer.cs">
+      <DependentUpon>Popup1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\PopUp2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\PopUps\PopUp2.Designer.cs">
+      <DependentUpon>PopUp2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\Utilities\ControlTools.cs" />
+    <Compile Include="FrontEnds\Utilities\GuiCreator.cs" />
+    <Compile Include="FrontEnds\Utilities\PropertyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\Utilities\PropertyForm.Designer.cs">
+      <DependentUpon>PropertyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\Utilities\SystemMenuManager.cs" />
+    <Compile Include="Hubs\Hub.cs" />
+    <Compile Include="Hubs\HubBase.cs" />
+    <Compile Include="Hubs\LogHub.cs" />
+    <Compile Include="Hubs\LogLevel.cs" />
+    <Compile Include="Hubs\LogViewCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hubs\LogViewCreator.Designer.cs" />
+    <Compile Include="Hubs\LogViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hubs\LogViewer.Designer.cs" />
+    <Compile Include="Hubs\WaitListenState.cs" />
+    <Compile Include="IO\BackwardReader.cs" />
+    <Compile Include="IO\Drops\DropQueueWriter.cs" />
+    <Compile Include="IO\Drops\DropQueueWriterEventArgs.cs" />
+    <Compile Include="IO\XML\IStringifiable.cs" />
+    <Compile Include="IO\XML\Node.cs" />
+    <Compile Include="MarketHubs\FoundServiceEventArg.cs" />
+    <Compile Include="MarketHubs\MarketHub.cs" />
+    <Compile Include="MarketHubs\MarketStatusChangedEventArg.cs" />
+    <Compile Include="MarketHubs\PriceLeg.cs" />
+    <Compile Include="MarketHubs\RequestCode.cs" />
+    <Compile Include="MarketHubs\Sims\SimMarketHub.cs" />
+    <Compile Include="OrderBooks\Order.cs" />
+    <Compile Include="OrderBooks\OrderBook.cs" />
+    <Compile Include="OrderBooks\OrderEnums.cs" />
+    <Compile Include="OrderBooks\OrderEventArgs.cs" />
+    <Compile Include="OrderBooks\OrderInstrument.cs" />
+    <Compile Include="OrderBooks\OrderPage.cs" />
+    <Compile Include="OrderBooks\OrderUpdateRequest.cs" />
+    <Compile Include="OrderBooks\RequestCode.cs" />
+    <Compile Include="OrderBooks\SyntheticOrder.cs" />
+    <Compile Include="ParameterManagement\Parameter.cs" />
+    <Compile Include="ParameterManagement\ParameterEventArgs.cs" />
+    <Compile Include="ParameterManagement\ParameterManager.cs" />
+    <Compile Include="Positions\PositionBook.cs" />
+    <Compile Include="Products\InstrumentDetails.cs" />
+    <Compile Include="Products\InstrumentFoundEventArgs.cs" />
+    <Compile Include="Products\InstrumentName.cs" />
+    <Compile Include="Products\InstrumentNameComparer.cs" />
+    <Compile Include="Products\InstrumentNameMapTable.cs" />
+    <Compile Include="Products\MonthCodes.cs" />
+    <Compile Include="Products\Product.cs" />
+    <Compile Include="Products\ProductTypes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RTS\IDinfo.cs" />
+    <Compile Include="RTS\Message.cs" />
+    <Compile Include="RTS\Requests.cs" />
+    <Compile Include="RTS\RTSContract.cs" />
+    <Compile Include="Sockets\Conversation.cs" />
+    <Compile Include="Sockets\SocketEventArgs.cs" />
+    <Compile Include="Sockets\SocketEventType.cs" />
+    <Compile Include="Sockets\SocketManager.cs" />
+    <Compile Include="IO\XML\Stringifiable.cs" />
+    <Compile Include="IO\XML\StringifiableReader.cs" />
+    <Compile Include="TaskHubs\TaskEventArg.cs" />
+    <Compile Include="TaskHubs\TaskHub.cs" />
+    <Compile Include="TaskHubs\TaskStatus.cs" />
+    <Compile Include="TermStructures\Instruments\InstrumentMatrix.cs" />
+    <Compile Include="Utilities\Alarms\Alarm.cs" />
+    <Compile Include="Utilities\Alerts\AlertManager.cs" />
+    <Compile Include="Utilities\Alerts\AlertManagerRequests.cs" />
+    <Compile Include="Utilities\Alerts\AlertUser.cs" />
+    <Compile Include="Utilities\ConvertType.cs" />
+    <Compile Include="Utilities\empty.cs" />
+    <Compile Include="IO\FilesIO.cs" />
+    <Compile Include="Utilities\EventWaitQueue.cs" />
+    <Compile Include="Utilities\EventWaitQueueLite.cs" />
+    <Compile Include="Utilities\KeyPressMessageFilter.cs" />
+    <Compile Include="Utilities\NetworkNode.cs" />
+    <Compile Include="Net\NistServices.cs" />
+    <Compile Include="Utilities\PositionBook.cs" />
+    <Compile Include="Utilities\PositionBookEventArgs.cs" />
+    <Compile Include="Utilities\QTMath.cs" />
+    <Compile Include="Utilities\RecycleFactory.cs" />
+    <Compile Include="Utilities\RequestEventArg.cs" />
+    <Compile Include="Utilities\RequestFactory.cs" />
+    <Compile Include="Utilities\Strings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrontEnds\Clusters\Cluster.resx">
+      <DependentUpon>Cluster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnds\Clusters\ClusterDisplay.resx">
+      <DependentUpon>ClusterDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnds\Clusters\Header.resx">
+      <DependentUpon>Header.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnds\PopUps\ParamBool2.resx">
+      <DependentUpon>ParamBool2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnds\PopUps\ParamDouble2.resx">
+      <DependentUpon>ParamDouble2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnds\PopUps\ParamEnum.resx">
+      <DependentUpon>ParamEnum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnds\PopUps\ParamInteger2.resx">
+      <DependentUpon>ParamInteger2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnds\PopUps\ParamString.resx">
+      <DependentUpon>ParamString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnds\PopUps\ParamUnknown.resx">
+      <DependentUpon>ParamUnknown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Foreign\GlacialList\ListView\GlacialList.csproj">
+      <Project>{bf45e961-c4a7-4634-8c9c-702aa94b009a}</Project>
+      <Name>GlacialList</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLLs\MySql.Data.dll" />
+    <Content Include="DLLs\ZedGraph.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

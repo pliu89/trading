@@ -1,0 +1,3 @@
+This is the development repo for BRE Trading.  Propietary and confidential. Do no distribute.
+Maintained by Phil Elsasser
+paelsasser1@gmail.com

@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC9403C4-9AC2-43B7-9608-61B6E2E906A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ambre.TTServices</RootNamespace>
+    <AssemblyName>AmbreTTServices</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TradingTechnologies.TTAPI, Version=7.2.10.0, Culture=neutral, PublicKeyToken=423079b15fc884a6, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TradingTechnologies.TTAPI.Tradebook, Version=7.2.10.0, Culture=neutral, PublicKeyToken=423079b15fc884a6, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="TradingTechnologies.TTAPI.WinFormsHelpers, Version=7.2.10.0, Culture=neutral, PublicKeyToken=423079b15fc884a6, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fills\CashBook.cs" />
+    <Compile Include="Fills\DropSimple.cs" />
+    <Compile Include="Fills\FillBookLifo.cs" />
+    <Compile Include="Fills\FillEventArgs.cs" />
+    <Compile Include="Fills\FillType.cs" />
+    <Compile Include="Fills\FilterType.cs" />
+    <Compile Include="Fills\FrontEnds\FillHubGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Fills\FrontEnds\FillHubGrid.Designer.cs">
+      <DependentUpon>FillHubGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fills\FrontEnds\FormAddFills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fills\FrontEnds\FormAddFills.Designer.cs">
+      <DependentUpon>FormAddFills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fills\FrontEnds\InstrumentRowData.cs" />
+    <Compile Include="Fills\FrontEnds\ListViewItemComparer.cs" />
+    <Compile Include="Fills\IFillBook.cs" />
+    <Compile Include="Markets\InstrumentMapEntry.cs" />
+    <Compile Include="Fills\DropRules.cs" />
+    <Compile Include="Fills\DropRulesOld.cs" />
+    <Compile Include="Fills\FillHub.cs" />
+    <Compile Include="Fills\BookLifo.cs" />
+    <Compile Include="Orders\OrderBookTT.cs" />
+    <Compile Include="Orders\OrderHubTT.cs" />
+    <Compile Include="Orders\OrderListener.cs" />
+    <Compile Include="Fills\RejectedFills\FormRejectViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fills\RejectedFills\FormRejectViewer.Designer.cs">
+      <DependentUpon>FormRejectViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fills\RejectedFills\RecentKeyList.cs" />
+    <Compile Include="Fills\RejectedFills\RejectedFillEventArgs.cs" />
+    <Compile Include="Fills\RejectedFills\RejectionReason.cs" />
+    <Compile Include="Orders\OrderListenerMsgr.cs" />
+    <Compile Include="Talker\FormStartTalkerHub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Talker\FormStartTalkerHub.Designer.cs">
+      <DependentUpon>FormStartTalkerHub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Talker\SubscriptionType.cs" />
+    <Compile Include="Talker\TalkerHub.cs" />
+    <Compile Include="Talker\TalkerHubEventArg.cs" />
+    <Compile Include="Talker\TalkerHubRequest.cs" />
+    <Compile Include="Talker\Topic.cs" />
+    <Compile Include="Tests\MarketMonitor\Monitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tests\MarketMonitor\Monitor.Designer.cs">
+      <DependentUpon>Monitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTApiService.cs" />
+    <Compile Include="Markets\MarketTTAPI.cs" />
+    <Compile Include="Markets\PriceListener.cs" />
+    <Compile Include="Fills\FillListener.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\ConsolePriceSubscription.cs" />
+    <Compile Include="Tests\TestMarket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tests\TestMarket.Designer.cs">
+      <DependentUpon>TestMarket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTConvert.cs" />
+    <EmbeddedResource Include="Fills\FrontEnds\FillHubGrid.resx">
+      <DependentUpon>FillHubGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fills\FrontEnds\FormAddFills.resx">
+      <DependentUpon>FormAddFills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fills\RejectedFills\FormRejectViewer.resx">
+      <DependentUpon>FormRejectViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Talker\FormStartTalkerHub.resx">
+      <DependentUpon>FormStartTalkerHub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tests\MarketMonitor\Monitor.resx">
+      <DependentUpon>Monitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tests\TestMarket.resx">
+      <DependentUpon>TestMarket.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ActiveGrid\ActiveGrid.csproj">
+      <Project>{5C9E1422-3BD4-4D6E-8918-4B8212943458}</Project>
+      <Name>ActiveGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AmbreLib\AmbreLib.csproj">
+      <Project>{1ceee0e0-6163-4d27-bf16-6c26b652acd0}</Project>
+      <Name>AmbreLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MistyLib\MistyLib.csproj">
+      <Project>{12eabd6b-0bba-410e-b542-a9ba02890d71}</Project>
+      <Name>MistyLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Tests\MarketMonitor\user_female.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

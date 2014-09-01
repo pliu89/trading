@@ -1,0 +1,8 @@
+r<! Rename this file TrampConfig.txt to use>
+<UV.Lib.Application.UserInfo UserName=ExecTest RunType=Debug/>
+<UV.Lib.FrontEnds.FrontEndServer ShowLog=false/>
+<UV.Lib.DatabaseReaderWriters.DatabaseReaderWriter Location=uv1 ShowLog=false/>
+<UV.Lib.MarketHubs.Sims.SimMarketHub ShowLog=false Start=2014-01-31 09:00/>
+<UV.Strategies.ExecutionHubs.Sims.SimExecutionHub ShowLog=false/>
+<UV.Strategies.StrategyHubs.StrategyHub Filename=Example_Strategies_Manual.txt ShowLog=true/>
+<UV.Lib.Application.Managers.ServiceManager Port=6010 ShowLog=false/>

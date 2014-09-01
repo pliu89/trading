@@ -1,0 +1,5 @@
+<Ambre.TTServices.Markets.MarketTTAPI/>
+<Ambre.TTServices.TTApiService FollowXTrader=True/>
+<Misty.Lib.Application.UserInformation Name=dvbre/>
+<Ambre.TTServices.Fills.FillHub Name=99990000/>
+<Ambre.TTServices.Fills.FillHub Name=Total/>

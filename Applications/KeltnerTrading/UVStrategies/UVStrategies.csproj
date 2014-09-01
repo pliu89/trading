@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E923BDF1-0F5B-4179-80C6-46D00B7D9784}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UV.Strategies</RootNamespace>
+    <AssemblyName>UVStrategies</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\UVStrategies.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UVLib">
+      <HintPath>..\dll\UVLib.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\dll\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExecutionEngines\Hedgers\HedgeManager.cs" />
+    <Compile Include="ExecutionEngines\Hedgers\Hedger.cs" />
+    <Compile Include="ExecutionEngines\Hedgers\RatioHedgeManager.cs" />
+    <Compile Include="ExecutionEngines\HedgeRules\CrossUnderThreshold.cs" />
+    <Compile Include="ExecutionEngines\HedgeRules\HedgeRule.cs" />
+    <Compile Include="ExecutionEngines\HedgeRules\FillTheGap.cs" />
+    <Compile Include="ExecutionEngines\HedgeRules\HedgeRuleManager.cs" />
+    <Compile Include="ExecutionEngines\HedgeRules\IHedgeRule.cs" />
+    <Compile Include="ExecutionEngines\HedgeRules\JoinBest.cs" />
+    <Compile Include="ExecutionEngines\HedgeRules\OppositeSideEjector.cs" />
+    <Compile Include="ExecutionEngines\HedgeRules\SameSideEjector.cs" />
+    <Compile Include="ExecutionEngines\OrderEngines\OrderEngineHud.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ExecutionEngines\OrderEngines\OrderEngineHud.Designer.cs">
+      <DependentUpon>OrderEngineHud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExecutionEngines\OrderEngines\IOrderEngineParameters.cs" />
+    <Compile Include="ExecutionEngines\OrderEngines\IOrderEngine.cs" />
+    <Compile Include="ExecutionEngines\OrderEngines\SingleLegExecutor.cs" />
+    <Compile Include="ExecutionEngines\OrderEngines\Spreaders\OffMarketQuoteBehavior.cs" />
+    <Compile Include="ExecutionEngines\OrderEngines\Spreaders\Spreader.cs" />
+    <Compile Include="ExecutionEngines\OrderEngines\Spreaders\SpreaderLeg.cs" />
+    <Compile Include="ExecutionEngines\OrderEngines\Spreaders\SpreaderRatio.cs" />
+    <Compile Include="ExecutionEngines\Risk\RiskManager.cs" />
+    <Compile Include="ExecutionEngines\Risk\RiskManagerSpreader.cs" />
+    <Compile Include="ExecutionEngines\SpreaderFills\SpreaderFillGenerator.cs" />
+    <Compile Include="ExecutionEngines\SpreaderFills\SpreaderRatioFillGenerator.cs" />
+    <Compile Include="ExecutionHubs\ExecutionContainer.cs" />
+    <Compile Include="ExecutionHubs\ExecutionHub.cs" />
+    <Compile Include="ExecutionHubs\ExecutionListener.cs" />
+    <Compile Include="ExecutionHubs\ITimerSubscriber.cs" />
+    <Compile Include="ExecutionHubs\RequestCode.cs" />
+    <Compile Include="ExecutionHubs\Sims\SimExecutionHub.cs" />
+    <Compile Include="ExecutionHubs\Sims\SimExecutionListener.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StrategyEngines\AlarmEngine.cs" />
+    <Compile Include="StrategyEngines\ExecutionRemote.cs" />
+    <Compile Include="StrategyEngines\FillModels\FillModel.cs" />
+    <Compile Include="StrategyEngines\IMarketSubscriber.cs" />
+    <Compile Include="StrategyEngines\ImplMarket.cs" />
+    <Compile Include="StrategyEngines\ModelEngine.cs" />
+    <Compile Include="StrategyEngines\PricingEngine.cs" />
+    <Compile Include="StrategyEngines\QuoteEngines\FauxQuote.cs" />
+    <Compile Include="StrategyEngines\QuoteEngines\IQuoteEngine.cs" />
+    <Compile Include="StrategyEngines\QuoteEngines\Quote.cs" />
+    <Compile Include="StrategyEngines\QuoteEngines\QuoteEngine.cs" />
+    <Compile Include="StrategyEngines\QuoteEngines\QuoteReason.cs" />
+    <Compile Include="StrategyEngines\StopBookEngines\StopBookEngine.cs" />
+    <Compile Include="StrategyEngines\StopBookEngines\StopBookTrailingEMA.cs" />
+    <Compile Include="StrategyEngines\TradeEngine.cs" />
+    <Compile Include="StrategyEngines\ZGraphEngine.cs" />
+    <Compile Include="StrategyHubs\ITimerSubscriber.cs" />
+    <Compile Include="StrategyHubs\RequestCode.cs" />
+    <Compile Include="StrategyHubs\Strategy.cs" />
+    <Compile Include="StrategyHubs\StrategyHub.cs" />
+    <Compile Include="StrategyHubs\StrategyHubRequest.cs" />
+    <Compile Include="StrategyHubs\StrategyMaker.cs" />
+    <EmbeddedResource Include="ExecutionEngines\OrderEngines\OrderEngineHud.resx">
+      <DependentUpon>OrderEngineHud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

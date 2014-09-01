@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{64F585FD-93DD-4741-A289-E4FC9C938FB0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ambre.PositionViewer</RootNamespace>
+    <AssemblyName>AmbrePositionViewer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>FrontEnds\user_female.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TradingTechnologies.TTAPI, Version=7.2.10.0, Culture=neutral, PublicKeyToken=423079b15fc884a6, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\tt\ttapi\bin\TradingTechnologies.TTAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="TradingTechnologies.TTAPI.WinFormsHelpers, Version=7.2.10.0, Culture=neutral, PublicKeyToken=423079b15fc884a6, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\tt\ttapi\bin\TradingTechnologies.TTAPI.WinFormsHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="TradingTechnologies.TTAPI.WpfHelpers, Version=7.2.10.0, Culture=neutral, PublicKeyToken=423079b15fc884a6, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\tt\ttapi\bin\TradingTechnologies.TTAPI.WpfHelpers.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dialogs\ControlPnLTransferTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ControlPnLTransferTool.Designer.cs">
+      <DependentUpon>ControlPnLTransferTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FormNewFillHub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormNewFillHub.Designer.cs">
+      <DependentUpon>FormNewFillHub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FormPnLTransferTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormPnLTransferTool.Designer.cs">
+      <DependentUpon>FormPnLTransferTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FormResetPnL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormResetPnL.Designer.cs">
+      <DependentUpon>FormResetPnL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPositionViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPositionViewer.Designer.cs">
+      <DependentUpon>FormPositionViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddFills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddFills.Designer.cs">
+      <DependentUpon>FormAddFills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFillBookViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFillBookViewer.Designer.cs">
+      <DependentUpon>FormFillBookViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\AmbreViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\AmbreViewer.Designer.cs">
+      <DependentUpon>AmbreViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\FillHubPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrontEnds\FillHubPage.Designer.cs">
+      <DependentUpon>FillHubPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnds\ListViewItemComparer.cs" />
+    <Compile Include="InstrumentRowData.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dialogs\ControlPnLTransferTool.resx">
+      <DependentUpon>ControlPnLTransferTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FormNewFillHub.resx">
+      <DependentUpon>FormNewFillHub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FormPnLTransferTool.resx">
+      <DependentUpon>FormPnLTransferTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FormResetPnL.resx">
+      <DependentUpon>FormResetPnL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddFills.resx">
+      <DependentUpon>FormAddFills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPositionViewer.resx">
+      <DependentUpon>FormPositionViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnds\AmbreViewer.resx">
+      <DependentUpon>AmbreViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FrontEnds\user_female.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ActiveGrid\ActiveGrid.csproj">
+      <Project>{5c9e1422-3bd4-4d6e-8918-4b8212943458}</Project>
+      <Name>ActiveGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AmbreTTServices\AmbreTTServices.csproj">
+      <Project>{bc9403c4-9ac2-43b7-9608-61b6e2e906a5}</Project>
+      <Name>AmbreTTServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MistyLib\MistyLib.csproj">
+      <Project>{12eabd6b-0bba-410e-b542-a9ba02890d71}</Project>
+      <Name>MistyLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

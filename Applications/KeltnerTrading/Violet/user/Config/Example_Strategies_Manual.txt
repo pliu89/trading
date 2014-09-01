@@ -1,0 +1,41 @@
+<UV.Strategies.StrategyHubs.Strategy Name=CL 3-Month>
+	
+	<!This is the "Manual trading model"/>
+	<UV.Models.Manuals.ManualSpreader>
+		<UV.Lib.MarketHubs.PriceLeg InstrumentName=CME.CL (Future) May14 PriceMultiplier=1 Weight=1.0/>
+		<UV.Lib.MarketHubs.PriceLeg InstrumentName=CME.CL (Future) Jun14 PriceMultiplier=-1.0 Weight=-1.0/>
+	</UV.Models.Manuals.ManualSpreader>	
+	
+	<!This is the spreader/>
+	<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.OrderEngines.Spreader DefaultAccount=test1>		
+		
+		<!Leg1/>
+		<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.OrderEngines.SpreaderLeg BaseVolumeLean=10 QuotingEnabled=true OffMarketQuotingBehavior=0>	        
+			<UV.Lib.MarketHubs.PriceLeg InstrumentName=CME.CL (Future) May14 PriceMultiplier=1 Weight=1.0/>
+		    <UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.Hedgers.Hedger UseGTCHedge=false PayUpTicks=0/>	        		
+		    <UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.HedgeRules.HedgeRuleManager>
+				<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.HedgeRules.JoinBest OnTriggerContinue=true RuleNumber=0/>
+				<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.HedgeRules.FillTheGap OnTriggerContinue=true RuleNumber=1/>
+				<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.HedgeRules.CrossUnderThreshold AggressThreshold=15 OnTriggerContinue=false RuleNumber=2/>
+			</UV.Strategies.StrategyEngines.ExecutionRemote>	
+		</UV.Strategies.StrategyEngines.ExecutionRemote>	
+		
+		<!Leg2/>
+		<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.OrderEngines.SpreaderLeg QuotingEnabled=false OffMarketQuotingBehavior=0 BaseVolumeLean=10 DefaultAccount=test2>			
+			<UV.Lib.MarketHubs.PriceLeg InstrumentName=CME.CL (Future) Jun14 PriceMultiplier=-1.0 Weight=-1.0/>
+		    <UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.Hedgers.Hedger UseGTCHedge=false PayUpTicks=0/>
+		    <UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.HedgeRules.HedgeRuleManager>
+				<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.HedgeRules.JoinBest OnTriggerContinue=true RuleNumber=0/>
+				<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.HedgeRules.FillTheGap OnTriggerContinue=true RuleNumber=1/>
+				<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.HedgeRules.CrossUnderThreshold AggressThreshold=15 OnTriggerContinue=false RuleNumber=2/>
+			</UV.Strategies.StrategyEngines.ExecutionRemote>
+		</UV.Strategies.StrategyEngines.ExecutionRemote>
+		
+		<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.Hedgers.HedgeManager UseGTCHedge=false HedgeThreshold=.7/>	        
+	</UV.Strategies.StrategyEngines.ExecutionRemote>	
+	
+	<!This is a risk manager to help manage all risk!/>
+	<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.Risk.RiskManagerSpreader MaxQuotesPerSecond=200 FatFingerTicks=0 MaxLossPnL=-5000 MaxFillQty = 20/>	
+</UV.Strategies.StrategyHubs.Strategy>
+
+

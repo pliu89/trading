@@ -1,0 +1,7 @@
+<! Rename this file VioletConfig.txt to use>
+<! Example of basic execution server set up for UV group>
+<UV.Lib.Application.UserInfo UserName=UV RunType=Debug/>
+<UV.Lib.FrontEnds.FrontEndServer ShowLog=true/>
+<UV.Lib.Application.Managers.ServiceManager Port=6001 ShowLog=true>
+	</UV.Lib.Application.Managers.ServiceManager>
+

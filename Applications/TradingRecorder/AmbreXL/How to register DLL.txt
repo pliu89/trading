@@ -1,0 +1,1 @@
+%SystemRoot%\Microsoft.NET\Framework\v4.0.30319\Regasm.exe "C:\Users\Administrator\Desktop\NewTTAPIProject\AmbreXL\bin\Debug\AmbreXL.dll" /codebase

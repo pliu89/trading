@@ -1,0 +1,8 @@
+<! Rename this file VioletConfig.txt to use>
+<! This config is a local strategy application that will connect to an execution server>
+<UV.Lib.Application.UserInfo UserName=LocalUser RunType=Debug/>
+<UV.Lib.FrontEnds.FrontEndServer ShowLog=true/>
+<UV.Lib.Application.Managers.ServiceManager ShowLog=true>
+    <UV.Lib.Application.Managers.ForeignService Port=6001 Config=Ex_ForeignConfig1.txt UserCred=Ex_ForeignUser.txt/>
+	</UV.Lib.Application.Managers.ServiceManager>
+

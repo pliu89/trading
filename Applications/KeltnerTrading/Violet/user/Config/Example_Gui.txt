@@ -1,0 +1,7 @@
+<! Rename this file VioletConfig.txt to use/>
+<! Example of config file for a local GUI that connects to a foreign strategy hub/>
+<UV.Lib.Application.UserInfo UserName=LocalUser RunType=Debug/>
+<UV.Lib.FrontEnds.FrontEndServer ShowLog=false/>
+<UV.Lib.Application.Managers.ServiceManager ShowLog=true>
+    <UV.Lib.Application.Managers.ForeignConnection IpAddress=10.10.100.251 Port=6010 UserCred=Example_ForeignUser.txt/>
+	</UV.Lib.Application.Managers.ServiceManager>

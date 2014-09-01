@@ -1,0 +1,7 @@
+<! Example of a config file sent to foreign server>
+<! --- > 
+<!UV.Lib.Application.UserInfo UserName=ExecTest RunType=Debug/>
+<UV.Lib.FrontEnds.FrontEndServer ShowLog=false/>
+<!UV.Lib.DatabaseReaderWriters.DatabaseReaderWriter Location=uv1 ShowLog=true/>
+<!UV.Lib.MarketHubs.Sims.SimMarketHub ShowLog=true Start=2014-01-31 09:00/>
+<!UV.Strategies.ExecutionHubs.Sims.SimExecutionHub ShowLog=true/>

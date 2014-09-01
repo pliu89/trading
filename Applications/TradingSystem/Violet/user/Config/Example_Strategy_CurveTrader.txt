@@ -1,0 +1,33 @@
+<UV.Strategies.StrategyHubs.Strategy Name=CurveTradeTest>
+	
+	<!This is the "Manual trading model"/>
+	<BRE.Models.Manuals.ManualSpreader>
+		<UV.Lib.MarketHubs.PriceLeg InstrumentName=CME.CL (Future) Jun21 PriceMultiplier=1 Weight=1.0/>
+		<UV.Lib.MarketHubs.PriceLeg InstrumentName=CME.CL (Future) Jun22 PriceMultiplier=-1.0 Weight=-1.0/>
+	</BRE.Models.Manuals.ManualSpreader>	
+	
+	<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.OrderEngines.TermStructures.CurveTradeManager ContainerType=UV.Strategies.ExecutionHubs.ExecutionContainers.MultiThreadContainer>		
+		
+		<!ThreadChunk1/>
+		<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.OrderEngines.TermStructures.CurveTrader>	
+
+			<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.OrderEngines.TermStructures.CurveLeg PullThreshold=11 JoinThreshold=15 BaseVolumeLean=10 QuotingEnabled=true OffMarketQuotingBehavior=0>	        
+				<UV.Lib.MarketHubs.PriceLeg InstrumentName=CME.CL (Future) Jun22 PriceMultiplier=1 Weight=1.0/>		
+				<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.Scratchers.Scratcher ScratchThreshold=10 ActiveScratch=true/>	        		
+			</UV.Strategies.StrategyEngines.ExecutionRemote>
+			<!Typically you would have several more legs here for each thread chunk/>
+				
+			
+			<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.Scratchers.ScratchManager/>
+			
+			<!This is the risk manager for this thread chunk/>
+			<UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.Risk.RiskManagerCurveTrader MaxQuotesPerSecond=200 MaxLossPnL=-5000 MaxFillQty = 20/>	
+
+		</UV.Strategies.StrategyEngines.ExecutionRemote EngineClass=UV.Strategies.ExecutionEngines.OrderEngines.TermStructures.CurveTrader>	
+										
+		
+	
+	</UV.Strategies.StrategyEngines.ExecutionRemote>	
+</UV.Strategies.StrategyHubs.Strategy>
+
+

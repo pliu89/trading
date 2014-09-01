@@ -1,0 +1,67 @@
+<Ambre.TTServices.Fills.FillHub LocalTime=03-15-2013 11:37:36.606 -05:00>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=TOCOM.CRUD (Future) 2013/05 Key=TOCOM CRUD (FUTURE) 1FU_33CRUD_1305></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=TOCOM.CRUD (Future) 2013/05 DollarPerPoint=50 SmallestFillPriceIncr=10 LocalTimeLast=2013-03-08 11:55:45.503 -06:00 ExchangeTimeLast=2013-03-08 11:55:45.499 -06:00 RealGain=0>
+      <Misty.Lib.OrderHubs.Fill Qty=-1 Price=63430 LocalTime=2013-03-08 11:55:45.503 -06:00 ExchangeTime=2013-03-08 11:55:45.499 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=1S831JX0HRA0IQ></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=TOCOM.CRUD (Future) 2013/06 Key=TOCOM CRUD (FUTURE) 1FU_33CRUD_1306></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=TOCOM.CRUD (Future) 2013/06 DollarPerPoint=50 SmallestFillPriceIncr=10 LocalTimeLast=2013-03-08 11:55:45.504 -06:00 ExchangeTimeLast=2013-03-08 11:55:42.083 -06:00 RealGain=0>
+      <Misty.Lib.OrderHubs.Fill Qty=1 Price=63110 LocalTime=2013-03-08 11:55:42.128 -06:00 ExchangeTime=2013-03-08 11:55:42.083 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Misty.Lib.OrderHubs.Fill Qty=1 Price=63140 LocalTime=2013-03-08 11:55:45.504 -06:00 ExchangeTime=2013-03-08 11:55:42.083 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=1B831JX0HRA0IP 2B831JX0HRA0IQ></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=TOCOM.CRUD (Future) 2013/07 Key=TOCOM CRUD (FUTURE) 1FU_33CRUD_1307></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=TOCOM.CRUD (Future) 2013/07 DollarPerPoint=50 SmallestFillPriceIncr=10 LocalTimeLast=2013-03-08 11:55:42.128 -06:00 ExchangeTimeLast=2013-03-08 11:55:42.083 -06:00 RealGain=0>
+      <Misty.Lib.OrderHubs.Fill Qty=-1 Price=62840 LocalTime=2013-03-08 11:55:42.128 -06:00 ExchangeTime=2013-03-08 11:55:42.083 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=2S831JX0HRA0IP></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=CME.GE (Future) Jun13 Key=CME GE (FUTURE) 00A0FN00GEZ></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=CME.GE (Future) Jun13 DollarPerPoint=25 SmallestFillPriceIncr=0.5 LocalTimeLast=2013-03-14 11:18:08.692 -05:00 ExchangeTimeLast=2013-03-14 11:18:08.236 -05:00 RealGain=10.5>
+      <Misty.Lib.OrderHubs.Fill Qty=9 Price=9970.5 LocalTime=2013-03-08 11:55:09.183 -06:00 ExchangeTime=2013-03-08 10:33:50.696 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Misty.Lib.OrderHubs.Fill Qty=94 Price=9970.5 LocalTime=2013-03-08 11:55:09.183 -06:00 ExchangeTime=2013-03-08 11:29:29.801 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=2S531JX0B3JRB5 2B531JX0B3JRB6 2B531JX0B3JRB7 2B531JX0B3JRB8 1B531JX0B3JRB9 2B531JX0B3JRBC 2B631JX0B3JRBD 2B631JX0B3JRBE 2S831JX0HRA0IH 2B831JX0HRA0II 1B831JX0HRA0IN 2SE31JX0V2QIV5></Ambre.TTServices.Fills.RejectedFills.RecentKeyList>
+      <Ambre.TTServices.Fills.RejectedFills.RejectedFillEventArgs InstrumentName=CME.GE (Future) Jun13 Reason=DuplicateKey Message=FillKey 2SE31JX0V2QIV5 already in book CME.GE Jun13.>
+         <Ambre.TTServices.Fills.FillEventArgs Type=InitialPosition InstrumentKey=CME GE (FUTURE) 00A0FN00GEZ FillKey=2SE31JX0V2QIV5 Qty=-6 Price=9970.25 LocalTime=2013-03-14 11:18:08.692 -05:00 ExchangeTime=2013-03-14 11:18:08.236 -05:00></Ambre.TTServices.Fills.FillEventArgs></Ambre.TTServices.Fills.RejectedFills.RejectedFillEventArgs></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=ICE_IPE.IPE e-Gas Oil (Future) Jun13 Key=ICE_IPE IPE e-Gas Oil (FUTURE) 198190></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=ICE_IPE.IPE e-Gas Oil (Future) Jun13 DollarPerPoint=100 SmallestFillPriceIncr=0.25 LocalTimeLast=2013-03-11 10:29:47.653 -05:00 ExchangeTimeLast=2013-03-11 09:41:53.152 -05:00 RealGain=92.75>
+      <Misty.Lib.OrderHubs.Fill Qty=7 Price=921.75 LocalTime=2013-03-08 11:55:09.184 -06:00 ExchangeTime=2013-03-08 11:13:21.096 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Misty.Lib.OrderHubs.Fill Qty=63 Price=921.75 LocalTime=2013-03-08 11:55:09.184 -06:00 ExchangeTime=2013-03-08 11:13:21.146 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Misty.Lib.OrderHubs.Fill Qty=5 Price=920.5 LocalTime=2013-03-11 10:29:47.653 -05:00 ExchangeTime=2013-03-11 09:41:53.152 -05:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=2B831JX0HRA0HU 1S831JX0HRA0HX 1S831JX0HRA0HY 2S831JX0HRA0I4 2S831JX0HRA0I5 2S831JX0HRA0I6 2S831JX0HRA0I7 2S831JX0HRA0I8 2S831JX0HRA0I9 2S831JX0HRA0IA 2S831JX0HRA0IB 1B831JX0HRA0IJ 1B831JX0HRA0IK 1B831JX0HRA0IL 1B831JX0HRA0IM 1S831JX0HRA0IO 2BB31JX0OF09OK></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=CME.GE (Future) Jun14 Key=CME GE (FUTURE) 00A0FO00GEZ></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=CME.GE (Future) Jun14 DollarPerPoint=25 SmallestFillPriceIncr=0.5 LocalTimeLast=2013-03-05 14:51:54.633 -06:00 ExchangeTimeLast=2013-03-05 11:36:02.644 -06:00 RealGain=0>
+      <Misty.Lib.OrderHubs.Fill Qty=-2 Price=9958 LocalTime=2013-03-05 14:51:54.633 -06:00 ExchangeTime=2013-03-05 11:36:02.644 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=2S531JX0B3JRBB></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=ICE_IPE.IPE e-Gas Oil (Future) May13 Key=ICE_IPE IPE e-Gas Oil (FUTURE) 199066></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=ICE_IPE.IPE e-Gas Oil (Future) May13 DollarPerPoint=100 SmallestFillPriceIncr=0.25 LocalTimeLast=2013-03-11 10:29:47.653 -05:00 ExchangeTimeLast=2013-03-11 09:41:53.152 -05:00 RealGain=-44.5>
+      <Misty.Lib.OrderHubs.Fill Qty=4 Price=927.5 LocalTime=2013-03-08 09:22:53.645 -06:00 ExchangeTime=2013-03-08 09:09:47.663 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Misty.Lib.OrderHubs.Fill Qty=2 Price=927.5 LocalTime=2013-03-08 09:22:53.645 -06:00 ExchangeTime=2013-03-08 09:09:49.189 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Misty.Lib.OrderHubs.Fill Qty=5 Price=927.5 LocalTime=2013-03-08 09:22:53.645 -06:00 ExchangeTime=2013-03-08 09:09:49.189 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=1S831JX0HRA0HU 2B831JX0HRA0HW 2S831JX0HRA0HZ 2S831JX0HRA0I0 2S831JX0HRA0I1 2S831JX0HRA0I2 1B831JX0HRA0I4 1B831JX0HRA0I5 1B831JX0HRA0I6 1B831JX0HRA0I7 1B831JX0HRA0I8 1B831JX0HRA0I9 1B831JX0HRA0IA 1B831JX0HRA0IB 2SB31JX0OF09OJ 1SB31JX0OF09OK></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=CME.GE (Future) Mar13 Key=CME GE (FUTURE) 00A0CN00GEZ></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=CME.GE (Future) Mar13 DollarPerPoint=25 SmallestFillPriceIncr=0.25 LocalTimeLast=2013-03-14 11:18:08.692 -05:00 ExchangeTimeLast=2013-03-14 11:18:08.236 -05:00 RealGain=0.5>
+      <Misty.Lib.OrderHubs.Fill Qty=6 Price=9971.75 LocalTime=2013-03-14 11:18:08.692 -05:00 ExchangeTime=2013-03-14 11:18:08.236 -05:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=1B531JX0B3JRB5 1S531JX0B3JRB6 1S531JX0B3JRB7 1S531JX0B3JRB8 1S531JX0B3JRBC 1S631JX0B3JRBD 1S631JX0B3JRBE 1B831JX0HRA0IH 1S831JX0HRA0II 1BE31JX0V2QIV5></Ambre.TTServices.Fills.RejectedFills.RecentKeyList>
+      <Ambre.TTServices.Fills.RejectedFills.RejectedFillEventArgs InstrumentName=CME.GE (Future) Mar13 Reason=DuplicateKey Message=FillKey 1BE31JX0V2QIV5 already in book CME.GE Mar13.>
+         <Ambre.TTServices.Fills.FillEventArgs Type=InitialPosition InstrumentKey=CME GE (FUTURE) 00A0CN00GEZ FillKey=1BE31JX0V2QIV5 Qty=6 Price=9971.75 LocalTime=2013-03-14 11:18:08.692 -05:00 ExchangeTime=2013-03-14 11:18:08.236 -05:00></Ambre.TTServices.Fills.FillEventArgs></Ambre.TTServices.Fills.RejectedFills.RejectedFillEventArgs></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=ICE_IPE.IPE e-Gas Oil (Future) Jul13 Key=ICE_IPE IPE e-Gas Oil (FUTURE) 199144></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=ICE_IPE.IPE e-Gas Oil (Future) Jul13 DollarPerPoint=100 SmallestFillPriceIncr=0.25 LocalTimeLast=2013-03-08 11:55:09.184 -06:00 ExchangeTimeLast=2013-03-08 11:44:02.560 -06:00 RealGain=-40>
+      <Misty.Lib.OrderHubs.Fill Qty=-27 Price=919.5 LocalTime=2013-03-08 11:55:09.184 -06:00 ExchangeTime=2013-03-08 11:13:21.096 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Misty.Lib.OrderHubs.Fill Qty=-63 Price=919.5 LocalTime=2013-03-08 11:55:09.184 -06:00 ExchangeTime=2013-03-08 11:13:21.146 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=2B831JX0HRA0HX 2B831JX0HRA0HY 2S831JX0HRA0IJ 2S831JX0HRA0IK 2S831JX0HRA0IL 2S831JX0HRA0IM 2B831JX0HRA0IO></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=CME.GE (Future) Dec13 Key=CME GE (FUTURE) 00A0LN00GEZ></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=CME.GE (Future) Dec13 DollarPerPoint=25 SmallestFillPriceIncr=0.5 LocalTimeLast=2013-03-05 14:51:54.633 -06:00 ExchangeTimeLast=2013-03-05 11:35:59.555 -06:00 RealGain=0>
+      <Misty.Lib.OrderHubs.Fill Qty=-2 Price=9965.5 LocalTime=2013-03-05 14:51:54.633 -06:00 ExchangeTime=2013-03-05 11:35:59.555 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=1S531JX0B3JRBA></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=CME.GE (Future) Mar14 Key=CME GE (FUTURE) 00A0CO00GEZ></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=CME.GE (Future) Mar14 DollarPerPoint=25 SmallestFillPriceIncr=0.5 LocalTimeLast=2013-03-05 14:51:54.633 -06:00 ExchangeTimeLast=2013-03-05 11:36:02.644 -06:00 RealGain=0>
+      <Misty.Lib.OrderHubs.Fill Qty=2 Price=9962.5 LocalTime=2013-03-05 14:51:54.633 -06:00 ExchangeTime=2013-03-05 11:35:59.555 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Misty.Lib.OrderHubs.Fill Qty=2 Price=9962.5 LocalTime=2013-03-05 14:51:54.633 -06:00 ExchangeTime=2013-03-05 11:36:02.644 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=2B531JX0B3JRBA 1B531JX0B3JRBB></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=ICE_IPE.IPE e-Gas Oil (Future) Apr13 Key=ICE_IPE IPE e-Gas Oil (FUTURE) 199028></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=ICE_IPE.IPE e-Gas Oil (Future) Apr13 DollarPerPoint=100 SmallestFillPriceIncr=0.25 LocalTimeLast=2013-03-11 10:29:47.653 -05:00 ExchangeTimeLast=2013-03-11 09:41:48.488 -05:00 RealGain=20.5>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=2S831JX0HRA0HT 2B831JX0HRA0HV 1S831JX0HRA0HW 1B831JX0HRA0HZ 1B831JX0HRA0I0 1B831JX0HRA0I1 1B831JX0HRA0I2 2S831JX0HRA0I3 2S831JX0HRA0IC 2B831JX0HRA0ID 2B831JX0HRA0IE 2B831JX0HRA0IF 2B831JX0HRA0IG 2SB31JX0OF09OH 2BB31JX0OF09OI 1BB31JX0OF09OJ></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+   <Ambre.TTServices.Markets.InstrumentMapEntry Name=CME.GE (Future) Sep13 Key=CME GE (FUTURE) 00A0IN00GEZ></Ambre.TTServices.Markets.InstrumentMapEntry>
+   <Ambre.TTServices.Fills.BookLifo InstrumentName=CME.GE (Future) Sep13 DollarPerPoint=25 SmallestFillPriceIncr=0.5 LocalTimeLast=2013-03-08 11:55:09.183 -06:00 ExchangeTimeLast=2013-03-08 11:29:29.801 -06:00 RealGain=0>
+      <Misty.Lib.OrderHubs.Fill Qty=-3 Price=9968.5 LocalTime=2013-03-05 14:51:54.633 -06:00 ExchangeTime=2013-03-05 11:35:49.194 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Misty.Lib.OrderHubs.Fill Qty=-100 Price=9968 LocalTime=2013-03-08 11:55:09.183 -06:00 ExchangeTime=2013-03-08 11:29:29.801 -06:00></Misty.Lib.OrderHubs.Fill>
+      <Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=2S531JX0B3JRB9 2S831JX0HRA0IN></Ambre.TTServices.Fills.RejectedFills.RecentKeyList></Ambre.TTServices.Fills.BookLifo>
+</Ambre.TTServices.Fills.FillHub>
+<Ambre.TTServices.Fills.RejectedFills.RecentKeyList MaxStorage=128 Keys=2S531JX0B3JRB9 2S831JX0HRA0IN/>

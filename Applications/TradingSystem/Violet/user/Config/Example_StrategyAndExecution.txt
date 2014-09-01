@@ -1,0 +1,9 @@
+<! Execution hub.>
+<UV.Lib.Application.UserInfo UserName=ExecTest RunType=Debug/>
+<UV.Lib.FrontEnds.FrontEndServer ShowLog=false/>
+<UV.Lib.Application.Managers.ServiceManager Port=6010 ShowLog=false/>
+<UV.Lib.DatabaseReaderWriters.DatabaseReaderWriter Location=cermakDV ShowLog=false/>
+<UV.TTServices.TTApiService ShowLog=True UserName=BETSIM Password=abc123CD/>
+<UV.TTServices.Markets.MarketTTAPI ShowLog=false/>
+<UV.TTServices.Execution.ExecutionHubTT ShowLog=false/>
+<UV.Strategies.StrategyHubs.StrategyHub filename=Example_Strategy_Manual.txt ShowLog=true/>

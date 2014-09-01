@@ -1,0 +1,162 @@
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\BloombergSimulationDataFeed.dll
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\BloombergSimulationDataFeed.pdb
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\BloombergSimulationDataFeed.dll
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Administrator\Desktop\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\BloombergSimulationDataFeed.pdb
+C:\Users\Cheng\Desktop\DV Trading\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+G:\EconomicBloombergProject\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+G:\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+G:\EconomicBloombergProject\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\bin\Debug\BloombergSimulationDataFeed.dll
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Administrator\Desktop\EconomicBloombergProjectSimulationFeed\EconomicBloombergProject\bin\Debug\BloombergSimulationDataFeed.pdb
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\bin\Debug\BloombergSimulationDataFeed.dll
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\bin\Debug\BloombergSimulationDataFeed.pdb
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectSimulation\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\BRE\trunk\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Administrator\Desktop\csharp\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Administrator\Desktop\csharp\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\csharp\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\csharp\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\csharp\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\csharp\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Administrator\Desktop\csharp\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\csharp\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Administrator\Desktop\csharp\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\csharp\BloombergEconomicProject\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Z420\Desktop\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Z420\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Z420\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Z420\Desktop\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Z420\Desktop\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Z420\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Z420\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Z420\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Z420\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Administrator\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\BloombergProjectReal\EconomicBloombergProject\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Administrator\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Administrator\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Cheng\Desktop\EconomicBloombergProject\BloombergProjectRealNew\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Cheng\Desktop\EconomicBloombergProject\BloombergProjectRealNew\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Cheng\Desktop\EconomicBloombergProject\BloombergProjectRealNew\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Cheng\Desktop\EconomicBloombergProject\BloombergProjectRealNew\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Cheng\Desktop\EconomicBloombergProject\BloombergProjectRealNew\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Cheng\Desktop\EconomicBloombergProject\BloombergProjectRealNew\EconomicBloombergProject\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Cheng\Desktop\EconomicBloombergProject\BloombergProjectRealNew\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Cheng\Desktop\EconomicBloombergProject\BloombergProjectRealNew\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Cheng\Desktop\EconomicBloombergProject\BloombergProjectRealNew\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Cheng\Desktop\EconomicBloombergProject\BloombergProjectRealNew\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+E:\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+E:\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+E:\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+E:\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+E:\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+E:\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+E:\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+E:\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+E:\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+G:\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+G:\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+G:\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+G:\EconomicBloombergProject2\bin\Debug\EconomicBloombergProject.exe.config
+G:\EconomicBloombergProject2\obj\Debug\EconomicBloombergProject.exe
+G:\EconomicBloombergProject2\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Z420\Desktop\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Z420\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Z420\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Z420\Desktop\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Z420\Desktop\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Z420\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Z420\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Z420\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Z420\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Administrator\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\EconomicBloombergProject\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Administrator\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Administrator\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\New Repo\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Administrator\Desktop\New Repo\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\New Repo\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\New Repo\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\New Repo\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Administrator\Desktop\New Repo\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\New Repo\BloombergProjectReal\EconomicBloombergProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\New Repo\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\New Repo\BloombergProjectReal\EconomicBloombergProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\New Repo\BloombergProjectReal\EconomicBloombergProject\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Administrator\Desktop\BloombergEconomicProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\Users\Administrator\Desktop\BloombergEconomicProject\obj\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\BloombergEconomicProject\obj\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\BloombergEconomicProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\Users\Administrator\Desktop\BloombergEconomicProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\Users\Administrator\Desktop\BloombergEconomicProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\BloombergEconomicProject\bin\Debug\EconomicBloombergProject.exe
+C:\Users\Administrator\Desktop\BloombergEconomicProject\bin\Debug\EconomicBloombergProject.pdb
+C:\Users\Administrator\Desktop\BloombergEconomicProject\bin\Debug\MySql.Data.dll
+C:\UbuntuShare\DV Trading\DVBloombergEconomicProject\bin\Debug\EconomicBloombergProject.exe.config
+C:\UbuntuShare\DV Trading\DVBloombergEconomicProject\obj\Debug\EconomicBloombergProject.csprojResolveAssemblyReference.cache
+C:\UbuntuShare\DV Trading\DVBloombergEconomicProject\obj\Debug\EconomicBloombergProject.EconomicDataTable.resources
+C:\UbuntuShare\DV Trading\DVBloombergEconomicProject\obj\Debug\EconomicBloombergProject.Properties.Resources.resources
+C:\UbuntuShare\DV Trading\DVBloombergEconomicProject\obj\Debug\EconomicBloombergProject.csproj.GenerateResource.Cache
+C:\UbuntuShare\DV Trading\DVBloombergEconomicProject\bin\Debug\EconomicBloombergProject.exe
+C:\UbuntuShare\DV Trading\DVBloombergEconomicProject\bin\Debug\EconomicBloombergProject.pdb
+C:\UbuntuShare\DV Trading\DVBloombergEconomicProject\obj\Debug\EconomicBloombergProject.exe
+C:\UbuntuShare\DV Trading\DVBloombergEconomicProject\obj\Debug\EconomicBloombergProject.pdb
